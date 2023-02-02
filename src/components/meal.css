@@ -1,0 +1,53 @@
+.meals-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-secondary);
+  border-radius: 4px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card-img {
+  width: 275px;
+}
+
+.card-info {
+  display: flex;
+  background: var(--color-secondary);
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.card-info p {
+  max-width: 200px;
+  align-self: center;
+  color: #fafafa;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.card-btn {
+  background: transparent;
+  padding: 16px 0;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s ease-out;
+  font-size: 1.5rem;
+  height: fit-content;
+}
+.card-btn svg {
+  color: #fafafa;
+}

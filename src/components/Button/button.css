@@ -1,0 +1,12 @@
+.btn {
+  background: transparent;
+  border-radius: 2px;
+  border: 2px solid var(--color-secondary);
+  color: var(--color-secondary);
+  padding: 10px 12px;
+}
+.active {
+  background: var(--color-secondary);
+  color: white;
+  box-shadow: 0 0 4px rgba(123, 123, 123, 0.5);
+}

@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+.mobile-hidden {
+  display: none;
+}
+.vertical-ul {
+  flex-direction: column;
+}
+.nav-li:hover {
+  text-decoration: underline;
+}
+@media (min-width: 768px) {
+  .desktop-hidden {
+    display: none;
+  }
+  .mobile-hidden {
+    display: flex;
+  }
+}

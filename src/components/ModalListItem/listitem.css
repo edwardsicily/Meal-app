@@ -1,0 +1,15 @@
+.ingredient {
+  display: flex;
+  padding: 0 2rem;
+  justify-content: space-between;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+p {
+  margin: 10px 0;
+}
